@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+width: 350px;
+    height: 550px;
+    background-color: #ddd;
+    margin: 100px auto;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    transform: translateY(10%);
+    background-color: #fff;
+    -webkit-transform: translateY(10%);
+    -moz-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    -o-transform: translateY(10%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+.container .one{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .two{
+    width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 5px solid #fff;
+        position: absolute;
+        left: 75%;
+        top: 35%;
+}
+.container .three{
+    text-transform: capitalize;
+        font-weight: bold;
+        font-size: 22px;
+        position: absolute;
+        left: 5%;
+        top: 40%;
+        letter-spacing: 2px;
+}
+.green{
+    color: #05744f;
+}
+.container .four{
+    position: absolute;
+        color: #ddd;
+        left: 5%;
+        top: 48%;
+}
+.container .five{
+    color: #777;
+    position: absolute;
+    left: 5%;
+    top: 56%;
+}
+.container .six{
+color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+}
+.container .seven{
+    width: 90%;
+        height: 15px;
+        background-color: #Ddd;
+        position: absolute;
+        left: 5%;
+        top: 80%;
+}
+.seven::after{
+    content: "";
+        width: 75%;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #05744f;
+        position: absolute;
+        left: 0;
+        top: 0;
+}
+.eight{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    top: 82%;
+}
+.eight > span{
+width: calc(100% / 3);
+height: #000;
+}
+.nine{
+    width: 90%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 5%;
+        top: 88%;
+        color: #ddd;
+}
+.nine > span{
+width: calc(100% / 3);
+height: #777;
+}
